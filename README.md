@@ -29,9 +29,9 @@ CSS:
 =================
 
 ## Installation
-Clone the repo. Go to the main directory.
-<code>npm install (to install dependencies)
-<code>npm start (to run the app.js file)
+Clone the repo. Go to the main directory.<br>
+<code>npm install</code> (to install dependencies)<br>
+<code>npm start</code> (to run the app.js file)<br>
 
 =========================================
 
