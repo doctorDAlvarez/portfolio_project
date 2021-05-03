@@ -34,9 +34,6 @@ article {
 h1,h2,h3,h4,h5,p{
   font-family: 'Coda', cursive;
 }
-h1 {
-  
-}
 
 h5{
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -304,6 +301,7 @@ img.thumbnail:hover {
   margin-bottom: 15px;
   border: 4px solid #fff;
   box-shadow: 0 0 4px 4px rgba(10, 10, 10, 0.2);
+  border-radius: 8px;
 }
 
 .btn-link {
@@ -316,7 +314,13 @@ img.thumbnail:hover {
   padding: 0.85em 1em;
   background-color: #333;
   border: 1px solid transparent;
-  border-radius: 5px;
+  border-radius: 8px;
+  
+}
+.btn-link:hover {
+  transition: background-color 0.5s;
+  /*color: greenyellow;*/
+  background-color: lightslategray;
 }
 
 

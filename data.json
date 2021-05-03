@@ -63,8 +63,8 @@
         {
             "id": 5,
             "project_name": "#SAFE project",
-            "description": "The Healthcare Social Network",
-            "technologies": ["#Blockchain", "#AI", "#Healthcare", "Social Network", "Machine learning", "Node.js", "Python"],
+            "description": "The Healthcare Social Network (in progress)",
+            "technologies": ["#Blockchain", "#AI", "#Healthcare", "Social Media", "Cloud computing(AWS)", "Containers", "Node.js/Express", "Python"],
             "live_link": "https://doctordalvarez.hashnode.dev",
             "github_link": "https://doctordalvarez.hashnode.dev",
             "image_urls": ["/static/images/673sq6.png",

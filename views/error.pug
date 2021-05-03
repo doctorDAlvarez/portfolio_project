@@ -1,0 +1,7 @@
+extends layout.pug 
+
+block content 
+
+    img(src='/static/images/mike.jpg', alt='mike', style= "width: 100%;height: 60%")
+    h1(style="text-align: center; padding-top: 100px;margin: auto; color: black") #{err.status} - ServerSide Error! (see console for stack details.).<br> #{err.message}!
+    
