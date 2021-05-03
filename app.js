@@ -5,9 +5,14 @@ const { projects } = require('./data');
 //initialize the express app
 const app = express();
 
+//setting pug
 app.set('view engine', 'pug');
+
+//serving static files.
 app.use('/static', express.static('public'));
 
+
+//basic routing
 app.get('/', (req, res) => {
     res.render('index', { projects });
 });
@@ -26,7 +31,7 @@ app.get('/project/:id', function(req, res, next) {
     }
 });
 
-//app.use(errorHandlers);
+//errorHandlers;
 app.use((req, res, next) => {
     const err = new Error('The resource you are looking does not exists');
     err.status = 404;
@@ -42,7 +47,7 @@ app.use((err, req, res, next) => {
     res.render('error', { err });
 });
 
-
+//starting the server and loggin in the console.
 app.listen(3000, () => {
     console.log('Server listening on port 3000')
 });
