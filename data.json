@@ -3,65 +3,74 @@
         {
             "id": 0,
             "project_name": "Random quote Machine",
-            "description": "Simple random quote app.",
+            "description": "Simple random quote and background color app.",
             "technologies": ["HTML5", "CSS", "JavaScript"],
-            "live_link": "string",
+            "live_link": "https://doctordalvarez.github.io/techdegree_project_1/",
             "github_link": "https://github.com/doctorDAlvarez/techdegree_project_1",
-            "image_urls": ["/static/images/first_1.png",
-                           "/static/images/first_land.png",
-                           "/static/images/first_2.png",
-                           "/static/images/first_3.png"]
+            "image_urls": ["/static/images/673sq1.png",
+                           "/static/images/1_1.png",
+                           "/static/images/1_2.png",
+                           "/static/images/1_3.png"]
         },
         {
             "id": 1,
             "project_name": "Pagination & Filtering",
-            "description": "Cool Campus app to search dynamically for students",
+            "description": "Campus app to search dynamically for students",
             "technologies": ["HTML5", "CSS", "JavaScript"],
-            "live_link": "string",
+            "live_link": "https://doctordalvarez.github.io/data_pagination_filtering/",
             "github_link": "https://github.com/doctorDAlvarez/data_pagination_filtering",
-            "image_urls": ["/static/images/second_square.png",
-                           "/static/images/second_land.png"]
+            "image_urls": ["/static/images/673sq2.png",
+                           "/static/images/2_1.png",
+                           "/static/images/2_2.png",
+                           "/static/images/2_3.png"]
         },
         {
             "id": 2,
             "project_name": "the_interactive Form",
             "description": "Dev conference registration form with dynamic error checking",
             "technologies": ["HTML5", "CSS", "JavaScript"],
-            "live_link": "string",
+            "live_link": "https://doctordalvarez.github.io/the_InteractiveForm/",
             "github_link": "https://github.com/doctorDAlvarez/the_InteractiveForm",
-            "image_urls": ["/static/images/third_square.png",
-                           "/static/images/third_land.png"]
+            "image_urls": ["/static/images/673sq3.png",
+                           "/static/images/3_1.png",
+                           "/static/images/3_2.png",
+                           "/static/images/3_3.png"]
         },
         {
             "id": 3,
             "project_name": "phraseHunter Game",
-            "description": "A solid guessing game with virtual keyboard feature",
+            "description": "A cool guessing game with virtual keyboard feature",
             "technologies": ["HTML5", "CSS", "JavaScript[OOP]"],
-            "live_link": "string",
+            "live_link": "https://doctordalvarez.github.io/phraseHunter-Game/",
             "github_link": "https://github.com/doctorDAlvarez/phraseHunter-Game",
-            "image_urls": ["/static/images/fourth_square.png",
-                           "/static/images/fourth_land.png"]
+            "image_urls": ["/static/images/673sq4.png",
+                           "/static/images/4_1.png",
+                           "/static/images/4_2.png",
+                           "/static/images/4_3.png"]
         },
         {
             "id": 4,
             "project_name": "public API",
             "description": "Implementing an online employee directory for a small company",
             "technologies": ["HTML5", "CSS", "JavaScript", "REST API", "Async programming"],
-            "live_link": "string",
+            "live_link": "https://doctordalvarez.github.io/publicAPI-Requests/",
             "github_link": "https://github.com/doctorDAlvarez/publicAPI-Requests",
-            "image_urls": ["/static/images/5_square.png",
-                           "/static/images/5_land.png",
-                           "/static/images/5_land2.png"]
+            "image_urls": ["/static/images/673sq5.png",
+                           "/static/images/5_2.png",
+                           "/static/images/5_3.png",
+                           "/static/images/5_1.png"]
         },
         {
             "id": 5,
             "project_name": "#SAFE project",
-            "description": "An absolutely new and radical approach to the healthcare system.",
+            "description": "The Healthcare Social Network",
             "technologies": ["#Blockchain", "#AI", "#Healthcare", "Social Network", "Machine learning", "Node.js", "Python"],
             "live_link": "https://doctordalvarez.hashnode.dev",
-            "github_link": "coming soon",
-            "image_urls": ["/static/images/safe.jpg",
-                           "/static/images/blog.jpg"]
+            "github_link": "https://doctordalvarez.hashnode.dev",
+            "image_urls": ["/static/images/673sq6.png",
+                           "/static/images/6_2.png",
+                           "/static/images/6_1.png",
+                           "/static/images/6_3.png"]
         }
     ]
 }

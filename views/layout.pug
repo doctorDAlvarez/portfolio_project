@@ -8,20 +8,23 @@ html(lang="en" dir="ltr")
     link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
     link(rel='stylesheet', href='/static/css/normalize.css')
     link(rel='stylesheet', href='/static/css/styles.css')
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Coda&display=swap" rel="stylesheet">
 
   body
     #my-info.sidebar
       .sidebar-info-box
         br
         .thumbnail-box
-          img.thumbnail(src='/static/images/d.jpeg', alt='')
+          img.thumbnail(src='/static/images/profile.jpeg', alt='')
         .dev-intro-box
 
           //- Replace with your name
-          h5 @diegoAlvarez
+          h5 DIEGO ALVAREZ
 
           //- Replace with description of who you are, what you do, and why you are so awesome
-          p A long path take me where I am, let me share my story with you. Hope you enjoy!
+          p Doctor mutated to developer. Soft skills, team work, and solid tech skills. 
+          p Passionate and perfectionist.
 
           //- Add path from your '/about' route handler to the href below
           a(href='/about') Learn More &rarr;

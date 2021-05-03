@@ -5,10 +5,10 @@ block content
   article.portfolio-intro
 
     //- Replace with your own heading like 'My Portfolio', or 'Hey, Potential Employers', or 'Let's make the web great together!' 
-    h1 ( doctor ) => developer
+    h1 doc => dev
 
     //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
-    p My work, projects and skills.
+    p Work || projects || skills.
 
 
   article.portfolio-project-thumbs
@@ -18,6 +18,6 @@ block content
       each project in projects
         .cell
           a(href=`/project/${project.id}`)
-            img.thumbnail(src=`${project.image_urls[0]}`, alt='project preview', width='327px', height='327px')
+            img.thumbnail(src=`${project.image_urls[0]}`, alt='project preview')
             h5= project.project_name
 
