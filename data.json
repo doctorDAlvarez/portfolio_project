@@ -50,7 +50,8 @@
             "live_link": "string",
             "github_link": "https://github.com/doctorDAlvarez/publicAPI-Requests",
             "image_urls": ["/static/images/5_square.png",
-                           "/static/images/5_land.png"]
+                           "/static/images/5_land.png",
+                           "/static/images/5_land2.png"]
         },
         {
             "id": 5,
